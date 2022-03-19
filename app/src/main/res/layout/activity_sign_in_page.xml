@@ -8,16 +8,9 @@
     android:visibility="visible"
     tools:context=".MainActivity"
     tools:visibility="visible"
-    android:background="@color/BGMainPage"
+    android:background="@drawable/signin"
     >
 
-    <ImageView
-        android:id="@+id/IntroLogo1"
-        android:layout_width="wrap_content"
-        android:layout_height="155dp"
-        android:padding="0dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ggcloud1" />
 
     <TextView
         android:layout_width="match_parent"
@@ -29,7 +22,8 @@
         android:textSize="25sp"
         android:textStyle="bold"
         android:textAlignment="gravity"
-        android:gravity="center_horizontal"/>
+        android:gravity="left"
+/>
 
     <com.google.android.material.textfield.TextInputEditText
 

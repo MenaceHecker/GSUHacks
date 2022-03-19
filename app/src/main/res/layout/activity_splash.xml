@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Splash"
-    android:background="@color/red">
+    android:background="@color/black">
 
     <ImageView
         android:layout_width="412dp"
         android:layout_height="365dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo_fin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
