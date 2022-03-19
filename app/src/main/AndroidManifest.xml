@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HackGSU">
         <activity
-            android:name=".Splash"
+            android:name=".activities.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Splash"
             android:exported="true"
             android:theme="@style/Theme.Splash">
             <intent-filter>
@@ -20,17 +23,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".IntroPage"
+            android:name=".activities.IntroPage"
             android:exported="false" />
         <activity
-            android:name=".SignInPage"
+            android:name=".activities.SignInPage"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:name=".activities.MainActivity"
+            android:exported="true"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
