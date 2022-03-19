@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1032607275221",
+    "project_id": "hackgsu-2192b",
+    "storage_bucket": "hackgsu-2192b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032607275221:android:ea5082c08d7bf2ae026a5c",
+        "android_client_info": {
+          "package_name": "com.example.hackgsu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032607275221-jh1lflkhhcu12hv4k4s453e6n2en00bj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hackgsu",
+            "certificate_hash": "d84930872d051f13a25fc1f66b868435e6a7297d"
+          }
+        },
+        {
+          "client_id": "1032607275221-kf52svom2ljqb4b1ur3egk1563pjroai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5cf1HQCXZZFwrT2nkN9_SSC0YSz-YZtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032607275221-kf52svom2ljqb4b1ur3egk1563pjroai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

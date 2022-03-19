@@ -62,20 +62,25 @@
         android:textAlignment="gravity"
         android:gravity="center_horizontal"
         />
+
     <Button
+        android:id="@+id/intro_signin"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="SIGN IN"
+        android:background="@drawable/round_btn"
         android:backgroundTint="@color/PGBlue"
         />
+
     <Button
+        android:id="@+id/intro_signup"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="SIGN UP"
-        android:backgroundTint="@color/PGBlue"
-        />
+
+        android:background="@drawable/round_btn"
+        android:text="SIGN UP" />
 
     <ImageView
         android:layout_width="180dp"
