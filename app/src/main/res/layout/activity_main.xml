@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/BGMainPage"
     android:orientation="vertical"
     android:visibility="visible"
     tools:context=".MainActivity"
-    tools:visibility="visible"
-    >
+    tools:visibility="visible">
 
   <ImageView
       android:id="@+id/IntroLogo"
@@ -16,47 +16,83 @@
       android:layout_height="155dp"
       android:padding="0dp"
       android:scaleType="centerCrop"
-      android:src="@drawable/googlecloud" />
+      android:src="@drawable/ggcloud1" />
 
   <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="5dp"
       android:fontFamily="@font/alata"
+      android:gravity="center_horizontal"
       android:text="CREATE ACCOUNT"
+      android:textAlignment="gravity"
       android:textColor="@color/black"
       android:textSize="25sp"
-      android:textStyle="bold"
-      android:textAlignment="gravity"
-      android:gravity="center_horizontal"/>
+      android:textStyle="bold" />
 
-  <com.google.android.material.textfield.TextInputEditText
 
+  <com.google.android.material.textfield.TextInputLayout
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
       android:layout_width="match_parent"
-      android:layout_height="48dp"
-      android:layout_marginStart="69dp"
-      android:layout_marginTop="45dp"
-      android:layout_marginEnd="81dp"
-      android:hint="Username"
-      android:minHeight="48dp" />
+      android:layout_height="wrap_content"
+      app:boxStrokeColor="@color/black"
+      app:boxStrokeWidth="2dp">
 
-  <com.google.android.material.textfield.TextInputEditText
-      android:layout_width="match_parent"
-      android:layout_height="48dp"
-      android:layout_marginStart="69dp"
-      android:layout_marginTop="10dp"
-      android:layout_marginEnd="81dp"
-      android:hint="Enter email id"
-      android:minHeight="48dp" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="81dp"
+        android:hint="Username"
+        android:minHeight="48dp"
+        android:paddingTop="8dp"
+        android:textColorHint="@color/purple_200"
+        app:hintAnimationEnabled="false"
+        app:hintEnabled="false" />
+  </com.google.android.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputEditText
+  <com.google.android.material.textfield.TextInputLayout
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
       android:layout_width="match_parent"
-      android:layout_height="48dp"
-      android:layout_marginStart="69dp"
-      android:layout_marginTop="10dp"
-      android:layout_marginEnd="81dp"
-      android:hint="Set Password"
-      android:minHeight="48dp" />
+      android:layout_height="wrap_content"
+      app:boxStrokeColor="@color/black"
+      app:boxStrokeWidth="2dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="81dp"
+        android:hint="Enter email id"
+        android:minHeight="48dp"
+        android:paddingTop="8dp"
+        android:textColorHint="@color/purple_200"
+        app:hintAnimationEnabled="false"
+        app:hintEnabled="false" />
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <com.google.android.material.textfield.TextInputLayout
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:boxStrokeColor="@color/black"
+      app:boxStrokeWidth="2dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="81dp"
+        android:hint="Set Password"
+        android:minHeight="48dp"
+        android:paddingTop="8dp"
+        android:textColorHint="@color/purple_200"
+        app:hintAnimationEnabled="false"
+        app:hintEnabled="false" />
+  </com.google.android.material.textfield.TextInputLayout>
 
   <Button
       android:id="@+id/button"
@@ -65,21 +101,22 @@
       android:layout_marginStart="69dp"
       android:layout_marginTop="10dp"
       android:layout_marginEnd="81dp"
-      android:backgroundTint="@color/Btngreen"
+      android:backgroundTint="@color/BGLogo"
       android:padding="12dp"
-      android:text="Register" />
+      android:text="Register"
+      android:textColor="@color/black" />
 
   <TextView
       android:layout_width="match_parent"
       android:layout_height="48dp"
       android:layout_marginTop="10dp"
       android:gravity="center_horizontal"
-      android:src="@drawable/mslogo"
+      android:padding="10dp"
       android:text="Already have an account?"
       android:textColor="@color/black"
       android:textSize="18sp"
-      android:textStyle="bold"
-      android:padding="10dp"/>
+      android:textStyle="bold" />
+
   <Button
       android:id="@+id/button2"
       android:layout_width="match_parent"
@@ -87,9 +124,17 @@
       android:layout_marginStart="69dp"
       android:layout_marginTop="10dp"
       android:layout_marginEnd="81dp"
-      android:backgroundTint="@color/Btngreen"
+      android:backgroundTint="@color/BGLogo"
       android:padding="12dp"
-      android:text="Sign In" />
+      android:text="Sign In"
+      android:textColor="@color/black" />
+
+  <ImageView
+      android:layout_width="180dp"
+      android:layout_height="89dp"
+      android:layout_gravity="bottom|right"
+      android:layout_marginTop="170dp"
+      android:src="@drawable/metalogo" />
 
 
 </LinearLayout>

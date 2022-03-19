@@ -9,4 +9,13 @@
     <color name="white">#FFFFFFFF</color>
     <color name="Btngreen">#94d2bd</color>
     <color name="BgPurple">#96A0F9</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="BGLogo">#CFE1B9</color>
+    <color name="BGMainPage">#8DB25F</color>
+    <color name="TextGrey">#C7C8D2</color>
+    <color name="PGBlue">#004765</color>
+    <color name="red">#b52323</color>
+
 </resources>
