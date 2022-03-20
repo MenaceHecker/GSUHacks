@@ -1,10 +1,13 @@
 package com.example.hackgsu.activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Window
+import android.view.WindowManager
+import androidx.appcompat.app.AppCompatActivity
 import com.example.hackgsu.R
 import kotlinx.android.synthetic.main.activity_intro_page.*
+
 
 class IntroPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,4 +21,5 @@ class IntroPage : AppCompatActivity() {
             startActivity(Intent(this@IntroPage, SignInPage::class.java))
         }
     }
+
 }

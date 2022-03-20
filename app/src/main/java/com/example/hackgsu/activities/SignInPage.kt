@@ -1,8 +1,6 @@
 package com.example.hackgsu.activities
 
-import android.content.ContentValues.TAG
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
@@ -40,7 +38,7 @@ btn_signIn.setOnClickListener { signInRegisteredUser() }
                     if (task.isSuccessful) {
                         Log.d("Sign In", "signInWithEmail:success")
                         val user = auth.currentUser
-                        startActivity(Intent(this, IntroPage::class.java))
+                        startActivity(Intent(this, home_page::class.java))
                     } else {
                         Log.w("Sign In", "signInWithCustomToken:failure", task.exception)
                         Toast.makeText(baseContext, "Authentication failed.",

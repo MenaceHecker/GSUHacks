@@ -10,6 +10,7 @@ import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import kotlinx.android.synthetic.main.activity_intro_page.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -19,6 +20,8 @@ class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         supportActionBar?.hide() //byRajul
+        btn_signin.setOnClickListener {
+            startActivity(Intent(this@MainActivity, SignInPage::class.java))
 
         btn_register.setOnClickListener{
 
@@ -79,6 +82,6 @@ class MainActivity : BaseActivity() {
                 }
             }
         }
-    }}
+    }}}
 
 
